@@ -1,6 +1,9 @@
 
 
-
+/* Add 3 color gradient along nav. Orange>Purple>DrkBlue */
 nav {
-    display: flex;
+    display: inline-block;
+} 
+.search{
+    display: inline-flex;
 }
