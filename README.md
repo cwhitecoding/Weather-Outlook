@@ -11,6 +11,7 @@ N/A
 ## Usage
 
 1. Enter the name of a city and click search. The weather will then be displayed below 
+![Site Landing Page](/assets/images/sitePage.png)
 
 ## Credits
 
