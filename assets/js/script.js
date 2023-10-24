@@ -19,8 +19,7 @@ searchBtn.addEventListener('click', function getInfo(){
         console.log(data);
         var location = $("#location");
         var cityName = data.name;
-        var icon2 = data.weather[0].icon;
-        var weatherDesc = data.weather.main;
+        var weatherDesc = data.weather;
         var tempVal = data.main.temp;
         var windSpd = data.wind.speed;
         var icon = 'https://openweathermap.org/img/wn/' + icon2 + '@2x.png';
@@ -35,5 +34,8 @@ searchBtn.addEventListener('click', function getInfo(){
         
         console.log(cityName);
     })
+    for (var i=0; i < 40; i += 8) {
+        
+    }
 })
 
